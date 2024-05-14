@@ -6,16 +6,18 @@
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+    margin: 0 auto;
 }
-#margen{
-
+/*----------------COMPRAR-----------------*/
+#margenComprar{
+    overflow: hidden;
     margin: 200px 100px;
     border: black 1px solid;
     width: 1400px;
     height: 800px;
     background: white;
 }
-#logo{
+#logoComprar{
 
     margin-top: 43px;
     margin-left: 43px;
@@ -25,12 +27,12 @@
     background: transparent url('img/1200px-Metrolínea_logo.svg.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-#comprar{
+#comprarComprar{
     width: 230px;
     height: 41px;
     position: relative;
     top: 0px;
-    left: 500px;
+    left: 450px;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-30)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-open-sans);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
@@ -39,11 +41,12 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+
 }
-#ver{
+#verComprar{
     position: relative;
     top: 0px;
-    left: 550px;
+    left: 500px;
     width: 132px;
     height: 41px;
     opacity: 1;
@@ -55,4 +58,186 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+}
+#lineaComprar{
+    width: 140px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: -8px;
+    left: 740px;
+}
+#buscarComprar{
+    position: relative;
+    left: 1130px;
+    top: -80px;
+}
+#carritoComprar{
+    position: relative;
+    left: 1180px;
+    top: -80px;
+}
+#rectanguloComprar{
+    position: relative;
+    width: 110px;
+    height: 810px;
+    background: #212020;
+    top: -189px;
+    left: 1290px;
+}
+#flechaUpComprar{
+    position: relative;
+    top: -950px;
+    left: 1335px;
+}
+#flechaDownComprar{
+    position: relative;
+    top: -250px;
+    left: 1305px;
+}
+#cantidad{
+    position: relative;
+    color: #ffffff;
+    top: -850px;
+    left: 1308px;
+    font-size: 20px;
+}
+#cuatro{
+    position: relative;
+    top: -750px;
+    left: 1335px;
+    font-size: 20px;
+    color: #FFFFFF80;
+}
+#cinco{
+    position: relative;
+    top: -710px;
+    left: 1335px;
+    font-size: 20px;
+    color: #ffffff;
+}
+#seis{
+    position: relative;
+    top: -670px;
+    left: 1335px;
+    font-size: 20px;
+    color: #FFFFFF80;
+}
+
+/*----------------VER-----------------*/
+
+#margenVer{
+
+    margin: 200px 100px;
+    border: black 1px solid;
+    width: 1400px;
+    height: 800px;
+    background: white;
+    overflow: hidden;
+}
+#logoVer{
+
+    margin-top: 43px;
+    margin-left: 43px;
+    width: 196px;
+    height: 44px;
+    position: relative;
+    background: transparent url('img/1200px-Metrolínea_logo.svg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#comprarVer{
+    width: 230px;
+    height: 41px;
+    position: relative;
+    top: 0px;
+    left: 450px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-30)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 30px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+#verVer{
+    position: relative;
+    top: 0px;
+    left: 500px;
+    width: 132px;
+    height: 41px;
+    opacity: 1;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-30)/var(--unnamed-line-spacing-41) var(--unnamed-font-family-open-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 30px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#lineaVer{
+    width: 90px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: -8px;
+    left: 1000px;
+}
+#buscarVer{
+    position: relative;
+    left: 1130px;
+    top: -80px;
+}
+#carritoVer{
+    position: relative;
+    left: 1180px;
+    top: -80px;
+}
+#rectanguloVer{
+    position: relative;
+    width: 110px;
+    height: 810px;
+    background: #212020;
+    top: -189px;
+    left: 1290px;
+}
+#flechaUpVer{
+    position: relative;
+    top: -950px;
+    left: 1335px;
+}
+#flechaDownVer{
+    position: relative;
+    top: -250px;
+    left: 1305px;
+}
+#valor{
+    position: relative;
+    color: #ffffff;
+    top: -850px;
+    left: 1325px;
+    font-size: 20px;
+}
+#mil{
+    position: relative;
+    top: -750px;
+    left: 1325px;
+    font-size: 20px;
+    color: #FFFFFF80;
+}
+#milQuinientos{
+    position: relative;
+    top: -710px;
+    left: 1325px;
+    font-size: 20px;
+    color: #ffffff;
+}
+#dosMil{
+    position: relative;
+    top: -670px;
+    left: 1325px;
+    font-size: 20px;
+    color: #FFFFFF80;
 }
