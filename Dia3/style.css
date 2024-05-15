@@ -18,13 +18,12 @@
     background: white;
 }
 #logoComprar{
-
+    overflow: hidden;
     margin-top: 43px;
     margin-left: 43px;
     width: 196px;
     height: 44px;
     position: relative;
-    background: transparent url('img/1200px-Metrolínea_logo.svg.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 #comprarComprar{
@@ -123,6 +122,51 @@
     font-size: 20px;
     color: #FFFFFF80;
 }
+#metrolineaComprar{
+    position: relative;
+    top: -870px;
+    left: 200px;
+    font-size: 20px;
+}
+#text{
+    position: relative;
+    font-size: 40px;
+    color: #000000;
+    top: -570px;
+    left: 58px;
+    font-family: Open Sans, Semibold;
+
+}
+#precio{
+    position: relative;
+    font-size: 27px;
+    color: #000000;
+    top: -600px;
+    left: 60px;
+    font-family: Open Sans, Semibold;
+}
+#cuadradito{
+    position: relative;
+    width: 160px;
+    height: 114px;
+    background: #D5FF43;
+    border-radius: 8px;
+    top: -743px;
+    left: 1080px;
+}
+#comp{
+
+    color: black;
+    font-size: 26px;
+    margin-top: 7px;
+    margin-left: 24px;
+    font-family: Open Sans, Semibold;
+}
+#metro{
+    height: 30px;
+    margin-top: 24px;
+    margin-left: 14px;
+}
 
 /*----------------VER-----------------*/
 
@@ -134,6 +178,7 @@
     height: 800px;
     background: white;
     overflow: hidden;
+
 }
 #logoVer{
 
@@ -223,21 +268,90 @@
 #mil{
     position: relative;
     top: -750px;
-    left: 1325px;
+    left: 1320px;
     font-size: 20px;
     color: #FFFFFF80;
 }
 #milQuinientos{
     position: relative;
     top: -710px;
-    left: 1325px;
+    left: 1320px;
     font-size: 20px;
     color: #ffffff;
 }
 #dosMil{
     position: relative;
     top: -670px;
-    left: 1325px;
+    left: 1320px;
     font-size: 20px;
     color: #FFFFFF80;
 }
+#metrolineaVer{
+    position: relative;
+    width: 576px;
+    height: 324px;
+    top: -900px;
+    left: 470px;
+
+}
+#propietario{
+    position: relative;
+    font-size: 40px;
+    top: -830px;
+    left: 301px;
+    font-family: Open Sans, Semibold;
+}
+#saldo{
+    position: relative;
+    font-size: 27px;
+    font-family: Open Sans, Semibold;
+    top: -849px;
+    left: 499px;
+}
+#saldoE{
+    position: relative;
+    font-size: 27px;
+    font-family: Open Sans, Semibold;
+    top: -849px;
+    left: 555px;
+}
+#cuadroSaldo{
+    position: relative;
+    top: -849px;
+    left: 510px;
+    width: 288px;
+    height: 58px;
+    border: #d4d4d4 1px solid ;
+    border-radius: 10px;
+    font-size: 27px;
+    font-family: Open Sans, Semibold;
+    color: #a5a5a5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+#cuadraditoVer{
+    position: relative;
+    width: 160px;
+    height: 114px;
+    background: #D5FF43;
+    border-radius: 8px;
+    top: -900px;
+    left: 1080px;
+}
+#compVer{
+
+    color: black;
+    font-size: 26px;
+    margin-top: 7px;
+    margin-left: 24px;
+    font-family: Open Sans, Semibold;
+}
+#metroVer{
+    height: 30px;
+    margin-top: 24px;
+    margin-left: 14px;
+}
+/*Desarrollado Por Luis Henao c.c. 1093904929*/
