@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+}
+.pag{
+    margin: 0 auto;
+    border: blue 1px solid;
+    width: 1920px;
+    height: 4150px;
+}
+#part1{
+    width: 1920px;
+    height: 1080px;
+    border: red 1px solid;
+}
+#part2{
+    width: 1792px;
+    height: 567px;
+    border: red 1px solid;
+    margin: 0 64px;
+    margin-top: 26px;
+    margin-bottom: 44px;
+    border-radius: 108px;
+}
+#part3{
+    width: 1792px;
+    height: 724px;
+    border: red 1px solid;
+    margin: 0 64px;
+    margin-bottom: 26px;
+    border-radius: 108px;
+}
+
+#part4{
+    width: 1792px;
+    height: 567px;
+    border: red 1px solid;
+    margin: 0 64px;
+    margin-bottom: 93px;
+    border-radius: 108px;
+
+}
+#part5{
+    width: 1792px;
+    margin: 0 64px;
+    border: red 1px solid;
+    height: 1013px;
+}
+#divicionT2{
+    height: 75px;
+    border: red 1px solid;
+}
+#fondo{
+    width: 1920px;
+}
