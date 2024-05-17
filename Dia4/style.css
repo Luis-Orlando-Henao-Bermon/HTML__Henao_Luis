@@ -21,6 +21,7 @@ body{
     margin: 0 auto;
     width: 1920px;
     height: 4150px;
+    overflow: hidden;
 
 }
 #part1{
