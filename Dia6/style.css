@@ -1,0 +1,24 @@
+body{
+    margin: 0px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.pag{
+    margin: 0 auto;
+    width: 1920px;
+    height: 1637px;
+    background-image: url(img/pexels-clive-kim-4150032@2x.png);
+}
+#cabecera{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: stretch;
+    background: #3074d4;
+    position: fixed;
+    color: #fff;
+    width: 1920px;
+    height: 174px;
+    margin: 0;
+    font-size: 30px;
+}

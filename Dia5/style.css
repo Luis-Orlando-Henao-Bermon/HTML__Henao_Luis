@@ -427,7 +427,8 @@ body{
 }
 #red4{
     position: relative;
-    width: 40px;
-    top: -195px;
+    width: 38px;
+    top: -192px;
     left:180px ;
+    border-radius: 10px;
 }
