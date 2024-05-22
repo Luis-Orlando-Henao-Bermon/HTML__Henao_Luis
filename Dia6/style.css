@@ -38,7 +38,6 @@ html{
     padding-left: 200px;
     align-items: center;
     overflow: hidden;
-    float: right;
     z-index: 1;
 }
 #cabecera img, p{
@@ -655,6 +654,14 @@ html{
     border: none;
     font-size: 29px;
 }
+#calendarTF{
+    background: #fff;
+    width:37px;
+    height: 43px;
+    position: relative;
+    top: -200px;
+    left: 373px;
+}
 /*------------------------Contraseña.html-------------------------*/
 .pagContra{
     margin: 0 auto;
@@ -699,7 +706,7 @@ html{
     margin-right: 107px;
 }
 #logoContra{
-    width: 349px;
+    width:349px;
     height: 69px;
     padding: 0 80px;
 }
