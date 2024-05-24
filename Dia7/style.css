@@ -18,273 +18,252 @@ body{
     margin: 0 auto;
 }
 .pag{
-    margin: 0 auto;
-    width: 1920px;
-    height: 1080px;
+    margin: 0px auto;
+    width: 100vw;
+    height: 212vw;
+    overflow: hidden;
 
 
 }
 #part1{
-    width: 1920px;
-    height: 1080px;
+    background-image: url(img/FondoTwitch@2x.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 135vh;
+    max-height: 56vw;
+    max-width: 1920px;
+    text-align: center;
+    margin: 0px;
+}
+#superior{
+    display: flex;
+    justify-content: space-between;
 }
 #part2{
-    width: 1792px;
-    height: 567px;
+    width: 93vw;
+    padding-bottom: 3vw;
     background: #00A8E1;
-    margin: 0 64px;
-    margin-top: 26px;
-    margin-bottom: 44px;
-    border-radius: 108px;
+    border-radius: 6vw;
+    margin: 0px auto;
+    margin-top: 1.5vw;
+    border: #00A8E1 1px solid;
+    text-align: center;
+    
 }
 #part3{
-    width: 1792px;
-    height: 724px;
+    width: 93vw;
+    padding-bottom: 3vw;
     background: #00A8E1;
-    margin: 0 64px;
-    margin-bottom: 26px;
-    border-radius: 108px;
+    border-radius: 6vw;
+    margin: 0px auto;
+    margin-top: 1.5vw;
+    border: #00A8E1 1px solid;
+    text-align: center;
 }
 
 #part4{
-    width: 1792px;
-    height: 567px;
+    width: 93vw;
+    padding-bottom: 3vw;
     background: #00A8E1;
-    margin: 0 64px;
-    margin-bottom: 93px;
-    border-radius: 108px;
+    border-radius: 6vw;
+    margin: 0px auto;
+    margin-top: 1.5vw;
+    border: #00A8E1 1px solid;
     text-align: center;
 
 }
 #part5{
-    width: 1792px;
-    margin: 0 64px;
-    height: 935px;
+    width: 93vw;
+    padding-bottom: 3vw;
+    border-radius: 6vw;
+    margin: 0px auto;
+    margin-top: 1.5vw;
+
     text-align: center;
 }
 #fondo{
-    width: 100%; 
+    width: 100vw; 
     height: 100vh;
+    max-height: 85vw;
+    max-width: 1920px;
+    z-index: -1;
 }
 #lupa{
-    position: relative;
-    top: -1042px;
-    width: 36px;
-    left: 64px;
+    width: 2vw;
+    height: 2vw;
+    padding-top: 2vw ;
+    padding-left: 3vw;
 }
 #login{
-    position: relative;
-    width: 205px;
-    height: 54px;
+    font-size: 1vw;
+    width: 11.5%;
+    height: 3vw;
     background: white;
-    left: 1695px;
-    top: -1110px;
     font-family: letra;
-    border-radius:  108px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+    border-radius:  30px; 
+    text-align: center;
+    align-content: center;
+    margin-right: 3vw;
+    margin-top:1.5% ;
 }
 #logo{
-    width: 556px;
-    height: 313px;
-    position: relative;
-    top: -987px;
-    left: 682px;
+    width: 14vw;
+    height: 7vw;
+    margin-top: 10.5%;
 }
 #text1{
-    position: relative;
-    left: 395px;
-    top: -1100px;
-    font-size: 63px;
+    margin: 0px;
+    margin-top: 3vw;
+    font-size: 3.1vw;
     color: white;
-    font-family: letra;
+    font-family: gor;
 }
 #text2{
-    position: relative;
-    left: 380px;
-    top: -1130px;
-    font-size: 31px;
+    margin:auto;
+    font-size: 1.65vw;
+    margin-top: 0.5vw;
     color: white;
-    width: 1100px;
-    height: 102px;
+    width: 65vw;
     text-align: center;
     font-family: letra;
 }
 #sing{
-    position: relative;
-    width: 458px;
-    height: 104px;
+    margin:  0px auto;
+    width: 20vw;
+    height: 5vw;
     border-radius: 52px;
     background: white;
     font-family: letra;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 730px;
-    top: -1130px;
+    margin-top: 2vw;
 }
 #text3{
     color: white;
-    font-size: 60px;
-    position: relative;
-    left: 345px;
-    top: 78px;
+    font-size: 3.2vw;
     font-family: letra;
+    margin-top: 4vw;
+    margin-bottom: 0px;
 }
 #tv{
-    position: relative;
-    top: 20px;
-    left: 765px;
-    width: 254px;
-    height: 205px;
-    top: 50px;
+    margin-top: 1.3vw;
+    width: 13vw;
+    height: 11vw;
+    margin-left: 2vw;
 }
 #text4{
+    margin: auto;
     color: white;
-    font-size: 39px;
+    font-size: 2vw;
     font-family: letra;
-    position: relative;
-    left: 228px;
     text-align: center;
-    width: 1290px;
-    top: 30px;
+    width: 65vw;
+    margin-top: 1vw;
+    padding-left:1vw ;
 }
 #text5{
-    position: relative;
     color: white;
-    font-size: 60px;
-    font-family: letra;
-    left: 71px;
-    top: 56px;
-    
+    font-size: 3.1vw;
+    font-family: gor;
 }
 #peliculas{
-    position: relative;
-    top: 40px;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    
 }
 .p{
-    width: 181px;
-    margin: 0 5px;
+    width: 9vw;
+    margin: 0 0.3vw;
 }
 #text6{
     color: white;
-    position: relative;
     font-family: letra;
-    font-size: 50px;
-    left: 143px;
+    font-size: 2vw;
     text-align: center;
-    width: 1492px;
-    height: 110px;
-    top: 35px;
+    margin-bottom: 0px;
 }
 #text7{
-    position: relative;
     color: white;
-    font-size: 60px;
+    font-size: 3.1vw;
     font-family: gor;
-    top: 79px;
-    
 }
 #x{
-    width: 169px;
-    position: relative;
-    
+    width: 9vw;
     top: 60px;
 }
 #text8{
-    position: relative;
     color: white;
-    font-size: 40px;
+    font-size: 2vw;
     font-family: letra;
-    width: 1350px;
-    left: 225px;
-    top: 60px;
     text-align: center;
+    margin-bottom: 0vw;
 }
 #text9{
     color: white;
-    position: relative;
-    top: -80px;
     font-family: letra;
-    font-size: 110px;
-    
+    font-size: 7vw;
+    margin-top: 4.5vw;
+    margin-bottom: 0vw;
 }
 #text10{
     color: white;
     font-family: letra;
-    font-size: 45px;
-    position: relative;
-    width: 1550px;
-    top: -200px;
-    left: 110px;
-    
+    font-size: 2.6vw;
+    width: 85vw;
+    margin: auto;
+    margin-top: 2vw;
 }
 #disp{
-    text-align: center;
-    flex-direction: column;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: -250px;
-    
 }
 #d1{
-    width: 256px;
-    height: 219px;
-    position: relative;
+    width: 15vw;
     top: -130px;
 }
 #d2{
-    width: 584px;
-    height: 534px;
+    width: 25vw;
 }
 #d3{
-    width: 271px;
-    height: 238px;
-    position: relative;
+    width: 20vw;
     top: -130px;
 }
 #f1{
-    position: relative;
-    top: -250px;
+    width: 1vw;
 }
 #f2{
-    position: relative;
-    top: -250px;
+    width: 1vw;
+}
+#power{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 #cur{
     color: white;
     font-family: cursiva;
-    font-size: 20px;
-    position: relative;
+    font-size: 1.2vw;
     top: -50px;
     left: -90px;
-    
+    padding-right: 1vw;
 }
 #firma{
-    width: 430px;
-    height: 241px;
-    position: relative;
-    top:-110px;
-    left: 60px;
-    
+    width: 10vw;
 }
 #divicionT2{
     height: 75px;
-    position: relative;
     top: -510px;
     display: flex;
     justify-content: center;
 }
 .fin{
     color: white;
-    font-size: 25px;
-    margin: 15px;
+    font-size: 1.2vw;
+    margin: 1.1vw;
     font-family: letra;
 }
