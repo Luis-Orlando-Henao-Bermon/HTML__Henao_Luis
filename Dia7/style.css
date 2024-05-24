@@ -20,8 +20,10 @@ body{
 .pag{
     margin: 0px auto;
     width: 100vw;
-    height: 212vw;
+    max-width: 1920px;
+    height: auto;
     overflow: hidden;
+    border: #00A8E1 1px solid;
 
 
 }
@@ -41,7 +43,7 @@ body{
     justify-content: space-between;
 }
 #part2{
-    width: 93vw;
+    width: 93%;
     padding-bottom: 3vw;
     background: #00A8E1;
     border-radius: 6vw;
@@ -49,10 +51,9 @@ body{
     margin-top: 1.5vw;
     border: #00A8E1 1px solid;
     text-align: center;
-    
 }
 #part3{
-    width: 93vw;
+    width: 93%;
     padding-bottom: 3vw;
     background: #00A8E1;
     border-radius: 6vw;
@@ -63,7 +64,7 @@ body{
 }
 
 #part4{
-    width: 93vw;
+    width: 93%;
     padding-bottom: 3vw;
     background: #00A8E1;
     border-radius: 6vw;
@@ -74,7 +75,7 @@ body{
 
 }
 #part5{
-    width: 93vw;
+    width: 93%;
     padding-bottom: 3vw;
     border-radius: 6vw;
     margin: 0px auto;
@@ -124,7 +125,6 @@ body{
     font-size: 1.65vw;
     margin-top: 0.5vw;
     color: white;
-    width: 65vw;
     text-align: center;
     font-family: letra;
 }
@@ -145,6 +145,7 @@ body{
 #text3{
     color: white;
     font-size: 3.2vw;
+    font-size-adjust:auto;
     font-family: letra;
     margin-top: 4vw;
     margin-bottom: 0px;
