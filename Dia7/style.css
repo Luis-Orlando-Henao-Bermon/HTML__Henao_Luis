@@ -219,18 +219,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -250px;
 }
 #d1{
     width: 15vw;
-    top: -130px;
 }
 #d2{
     width: 25vw;
 }
 #d3{
     width: 20vw;
-    top: -130px;
 }
 #f1{
     width: 1vw;
@@ -247,8 +244,6 @@ body{
     color: white;
     font-family: cursiva;
     font-size: 1.2vw;
-    top: -50px;
-    left: -90px;
     padding-right: 1vw;
 }
 #firma{
@@ -256,7 +251,6 @@ body{
 }
 #divicionT2{
     height: 75px;
-    top: -510px;
     display: flex;
     justify-content: center;
 }
