@@ -175,8 +175,8 @@ body{
     justify-content: center;
 }
 .p{
-    width: 9vw;
-    margin: 0 0.3vw;
+    width: 9%;
+    margin: 0 0.3%;
 }
 #text6{
     color: white;
@@ -221,19 +221,19 @@ body{
     align-items: center;
 }
 #d1{
-    width: 15vw;
+    width: 15%;
 }
 #d2{
-    width: 25vw;
+    width: 25%;
 }
 #d3{
-    width: 20vw;
+    width: 20%;
 }
 #f1{
-    width: 1vw;
+    width: 1%;
 }
 #f2{
-    width: 1vw;
+    width: 1%;
 }
 #power{
     display: flex;
