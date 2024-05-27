@@ -1,24 +1,70 @@
-#total{
+body{
+    margin: 0px;
+} 
+#cuadro1{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
-    width: 100vw;
+    gap: 3%;
+    background-color: black;
+    width: 92vw;
+    height: 100%;
     max-width: 1920px;
     margin: auto;
+    padding: 3%;
+    border-radius: 3% ;
 }
-#total div{
-    border: red 1px solid;
+.dentro1 {
+    border-radius: 3%;
+    width: 100%;
+    margin-bottom: 0px;
 }
-#hsh{
-    width: auto;
-    height: auto;
-}
-.dentro1{
+.dentro2{
+    border-radius: 3%;
     grid-column-start:2 ;
     grid-row-start: 1;
     grid-row-end: 3;
+    width: 100%;
+    height: 100%;
 }
-.dentro3{
+.dentro3 {
+    border-radius: 3%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.dentro4{
     grid-column-start:1;
     grid-column-end:3;
+    width: 100%;
+    border-radius: 3%;
+    margin-bottom: 6%;
+}
+#cuadro2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3%;
+    background-color: black;
+    width: 92vw;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 3%;
+    border-radius: 3%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+#img1{
+    border-radius: 3%;
+    width: 100%;
+}
+#img2{
+    border-radius: 3%;
+    grid-column-start:2 ;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    height: 98.3%;
+}
+#img3{
+    border-radius: 3%;
+    width: 100%;
 }
