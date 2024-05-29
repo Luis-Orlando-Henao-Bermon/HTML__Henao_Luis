@@ -1,0 +1,12 @@
+#contenedor{
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 100vw;
+    width: 100vw;
+    max-width: 1920px;
+}
+#contenedor img{
+    width: 100%;
+    border: 1px solid red;
+    height: 100vh;
+}
