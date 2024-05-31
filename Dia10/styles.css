@@ -1,0 +1,15 @@
+/* Estilos por defecto para el contenido */
+.content {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+}
+
+/* Estilos cuando el checkbox está seleccionado */
+#toggle:hover ~ .content {
+    color: white;
+    background-color: black;
+    border-color: white;
+}

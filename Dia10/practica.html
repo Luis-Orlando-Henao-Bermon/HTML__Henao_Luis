@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-only Responsive Design</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ajustar al tamaño de la ventana */
+        }
+
+        .content {
+            padding: 20px;
+            border: 1px solid black;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            width: 50%; /* Tamaño por defecto */
+        }
+
+        /* Media query para dispositivos más pequeños */
+        @media screen and (max-width: 600px) {
+            .content {
+                width: 80%;
+            }
+        }
+
+        /* Media query para dispositivos más grandes */
+        @media screen and (min-width: 1200px) {
+            .content {
+                width: 30%;
+            }
+        }
+
+        /* Estilos adicionales */
+        .content.large {
+            background-color: black;
+            color: white;
+        }
+
+        .content.small {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            Resize the window to see the effect.
+        </div>
+    </div>
+</body>
+</html>
