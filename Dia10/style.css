@@ -16,7 +16,7 @@ body{
     height:100vw ;
     max-height: 1080px;
     display: grid;
-    grid-template-columns: 17% 83%;
+    grid-template-columns: 17vw 83vw;
     transition: 0.5s;
 }
 .div2 {
@@ -25,15 +25,15 @@ body{
 }
 .menu {
     display: flex;
-    height: 5vw;
+    height: 5rem;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5vw 2vw;
+    padding: 0.5rem 0.5rem;
     background-color: white;
 }
 .icon_menu {
-    width: 1.2vw;
-    height: 1.2vw;
+    width: 1.2rem;
+    height: 1.2rem;
     cursor: pointer;
     margin: auto;
     padding: 0%;
@@ -43,98 +43,94 @@ body{
 }
 .foto {
     border-radius: 50%;
-    width: 3vw;
-    height: 3vw;
+    width: 3rem;
+    height: 3rem;
     margin: 0px;
 }
-#opc_menu:checked>.div1{
-    background-color: aqua;
-}
-
 #opc_menu:checked+.contenedor{
-    grid-template-columns: 4% 96%;
+    grid-template-columns: 3.5vw 97.5vw;
 }
 .header {
     display: flex;
     align-items: center;
-    margin-top: 1vw;
-    padding-left: 0.7vw;
+    margin-top: 1rem;
+    padding-left: 0.7rem;
 }
 .feliz {
-    width:  2.5vw;
-    height: 2.5vw;
+    width:  2.5rem;
+    height: 2.5rem;
 }
 .admin {
     margin: 0%;
     font-family: regular;
     font-weight: 900;
     color: #206cec;
-    font-size: 2vw;
-    padding-left: 1vw;
+    font-size: 2rem;
+    padding-left: 1rem;
 }
 .dash {
     display: flex;
     width: 85%;
-    border-radius: 1vw;
+    border-radius: 1rem;
     background-color: #206cec;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     align-items: center;
-    margin: 3vw 5% 2vw 5%;
+    margin: 3rem 5% 2rem 5%;
 }
 
 .dash p{
-    margin: 1vw;
+    margin: 1rem;
     font-family: regular;
 }
 .iconD {
-    margin-left: 1vw;
-    width: 1.5vw;
-    height: 1.5vw;
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 #main{
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 900;
     color: gray;
     font-family: regular;
-    margin-left: 1vw;
-    margin-bottom: 1vw;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 #check_elements{
     display: none;
 }
 .elements{
-    height: 0vw;
+    height: 0rem;
     font-family: regular;
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     overflow: hidden;
-    margin-top: 0vw;
+    margin-top: 0rem;
 }
 .elements p:hover{
     color: #4668a3;
     cursor: pointer;
 }
 .elements p{
-    margin-left: 4.5vw;
+    margin-left: 4.5rem;
 }
 
 #check_elements:checked ~ .elements{
-    height: 8vw;
+    height: 8rem;
 
 }
 .boton_Elements {
     transition: 0.2s;
     display: flex;
     width: 85%;
-    height: 3vw;
-    border-radius: 1vw;
+    height: 3rem;
+    border-radius: 1rem;
     align-items: center;
-    margin: 0.1vw 5% 1vw 5%;
-    font-size: 1.2vw;
+    margin: 0.1rem 5% 1rem 5%;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .boton_Elements p{
-    margin-left: 1.3vw;
+    margin-left: 1.3rem;
     font-family: regular;
 }
 #check_elements:checked ~ .boton_Elements{
@@ -142,109 +138,109 @@ body{
     color: white;
 }
 .elementsI {
-    margin-left: 1vw;
-    width: 1.5vw;
-    height: 1.5vw;
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .chart {
     display: flex;
     width: 85%;
-    border-radius: 1vw;
+    border-radius: 1rem;
     align-items: center;
-    margin: 0.1vw 5% 1vw 5%;
-    font-size: 1.2vw;
+    margin: 0.1rem 5% 1rem 5%;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .chart p{
-    margin-left: 1.3vw;
+    margin-left: 1.3rem;
     font-family: regular;
 }
 .chart_I {
-    margin-left: 1vw;
-    width: 1.5vw;
-    height: 1.5vw;
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background-color: black;
-    border-radius: 0.2vw;
+    border-radius: 0.2rem;
 }
 .widget {
     display: flex;
     width: 85%;
-    border-radius: 1vw;
+    border-radius: 1rem;
     align-items: center;
-    margin: 0.1vw 5% 01vw 5%;
-    font-size: 1.2vw;
+    margin: 0.1rem 5% 01rem 5%;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .widget p{
-    margin-left: 1.3vw;
+    margin-left: 1.3rem;
     font-family: regular;
 }
 
 .widget_I {
-    margin-left: 1vw;
-    width: 1.5vw;
-    height: 1.5vw;
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 #tableA{
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 900;
     color: gray;
     font-family: regular;
-    margin-left: 1vw;
+    margin-left: 1rem;
 }
 .table {
     display: flex;
     width: 85%;
-    border-radius: 1vw;
+    border-radius: 1rem;
     align-items: center;
-    margin: 0.1vw 5% 1vw 5%;
-    font-size: 1.2vw;
+    margin: 0.1rem 5% 1rem 5%;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .table p{
-    margin-left: 1.3vw;
+    margin-left: 1.3rem;
     font-family: regular;
 }
 .table_I {
-    margin-left: 1vw;
-    width: 1.5vw;
-    height: 1.5vw;
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 #check_forms{
     display: none;
 }
 .forms{
-    height: 0vw;
+    height: 0rem;
     font-family: regular;
-    font-size: 0.9vw;
+    font-size: 0.9rem;
     overflow: hidden;
-    margin-top: 0vw;
+    margin-top: 0rem;
 }
 .forms p:hover{
     color: #4668a3;
     cursor: pointer;
 }
 .forms p{
-    margin-left: 4.5vw;
+    margin-left: 4.5rem;
 }
 
 #check_forms:checked ~ .forms{
-    height: 8vw;
+    height: 8rem;
 
 }
 .boton_forms {
     transition: 0.2s;
     display: flex;
     width: 85%;
-    border-radius: 1vw;
+    border-radius: 1rem;
     align-items: center;
-    margin: 0.1vw 5% 0.5vw 5%;
-    font-size: 1.2vw;
+    margin: 0.1rem 5% 0.5rem 5%;
+    font-size: 1.2rem;
     cursor: pointer;
-    height: 3vw;
+    height: 3rem;
 }
 .boton_forms p{
-    margin-left: 1.3vw;
+    margin-left: 1.3rem;
     font-family: regular;
 }
 #check_forms:checked ~ .boton_forms{
@@ -252,24 +248,27 @@ body{
     color: white;
 }
 .formsI {
-    margin-left: 1vw;
-    width: 1.5vw;
-    height: 1.5vw;
+    margin-left: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .contenRight {
     height: 87.5%;
-    margin: 1vw;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .dashboardR {
     font-family: regular;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     margin: 0%;
-    padding-top:1vw ;
+    padding-top:1rem ;
 }
 .text2 {
     color: gray;
     font-family: regular;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 .text2 span{
     color: #206cec;
@@ -277,48 +276,47 @@ body{
 .cajas {
     display: flex;
     flex-wrap: wrap;
-    gap: 1vw;
+    gap: 1rem;
 }
 .caja1 {
     background-color: white;
     width: 24% ;
-    height: 10vw;
-    border-radius: 1vw;
+    height: 10rem;
+    border-radius: 1rem;
 }
 .caja1D1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-inline:1.5vw ;
+    margin-inline:1.5rem ;
     margin-top: 2%;
 }
 .caja1D1 p{
     font-family: regular;
     font-weight: 900;
-    font-size: 1.5vw;
-    margin: 0%;
+    font-size: 1.5rem;
+    margin: 0.8rem 0rem;
 }
 
 #up{
-    width:1.5vw;
-    height: 1.5vw;
+    width:1.5rem;
+    height: 1.5rem;
 }
 .traf{
     font-family: regular;
-    font-size: 0.9vw;
-    margin-left: 1.5vw;
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
+    margin-bottom:0.5rem ;
 }
 .barraC1 {
     background-color: #f0ecf4;
-    border-radius: 1vw;
-    height: 0.7vw;
+    border-radius: 1rem;
+    height: 0.7rem;
     width: 90%;
     margin: auto;
-    position: relative;
-    top: -1vw;
 }
 .barraC1 p{
-    border-radius: 1vw;
+    border-radius: 1rem;
     background-color: #206cec;
     width: 40%;
     height: 100%;
@@ -326,28 +324,24 @@ body{
 .cuarenta{
     font-family: regular;
     font-weight: 900 ;
-    font-size: 0.9vw;
-    margin-left: 1.5vw;
-    position: relative;
-    top: -1vw;
+    font-size: 0.9rem;
+    margin-left: 1.5rem;
 }
 .caja2 {
     background-color: white;
     width: 24% ;
-    height: 10vw;
-    border-radius: 1vw;
+    height: 10rem;
+    border-radius: 1rem;
 }
 .barraC2 {
     background-color: #f0ecf4;
-    border-radius: 1vw;
-    height: 0.7vw;
+    border-radius: 1rem;
+    height: 0.7rem;
     width: 90%;
     margin: auto;
-    position: relative;
-    top: -1vw;
 }
 .barraC2 p{
-    border-radius: 1vw;
+    border-radius: 1rem;
     background-color: #206cec;
     width: 60%;
     height: 100%;
@@ -355,20 +349,18 @@ body{
 .caja3 {
     background-color: white;
     width: 24% ;
-    height: 10vw;
-    border-radius: 1vw;
+    height: 10rem;
+    border-radius: 1rem;
 }
 .barraC3 {
     background-color: #f0ecf4;
-    border-radius: 1vw;
-    height: 0.7vw;
+    border-radius: 1rem;
+    height: 0.7rem;
     width: 90%;
     margin: auto;
-    position: relative;
-    top: -1vw;
 }
 .barraC3 p{
-    border-radius: 1vw;
+    border-radius: 1rem;
     background-color: #206cec;
     width: 30%;
     height: 100%;
@@ -376,46 +368,75 @@ body{
 .caja4 {
     background-color: white;
     width: 24% ;
-    height: 10vw;
-    border-radius: 1vw;
+    height: 10rem;
+    border-radius: 1rem;
 }
 .barraC4 {
     background-color: #f0ecf4;
-    border-radius: 1vw;
-    height: 0.7vw;
+    border-radius: 1rem;
+    height: 0.7rem;
     width: 90%;
     margin: auto;
-    position: relative;
-    top: -1vw;
 }
 .barraC4 p{
-    border-radius: 1vw;
+    border-radius: 1rem;
     background-color: #206cec;
     width: 80%;
     height: 100%;
 }
 .final{
     background-color:white;
-    padding: 0.01vw;
-    border-radius: 1vw;
+    padding: 0.01rem;
+    border-radius: 1rem;
 }
 .final1 {
-    font-size:1.5vw ;
+    font-size:1.5rem ;
     font-family: regular;
     font-weight: 100;
-    margin-left: 1vw;
+    margin-left: 1rem;
 }
 .final12 {
-    font-size:1.8vw ;
+    font-size:1.8rem ;
     font-family: regular;
     font-weight: 900;
-    margin-left: 1vw;
+    margin-left: 1rem;
 }
 
 
 @media only screen and (max-width: 400px){
     .contenedor{
         height: 100vh;
-        grid-template-columns: 30vw 70vw;
+        grid-template-columns: 50vw 50vw;
+    }
+    #opc_menu:checked+.contenedor{
+        grid-template-columns: 4rem 20rem;
+    }
+    .caja1{
+        width: 8.5rem;
+        height: 8rem;
+    }
+    .caja2{
+        width: 8.5rem;
+        height: 8rem;
+    }
+    .caja3{
+        width: 8.5rem;
+        height: 8rem;
+    }
+    .caja4{
+        width: 8.5rem;
+        height: 8rem;
+    }
+    .barraC1 p{
+        margin: 0rem;
+    }
+    .barraC2 p{
+        margin: 0rem;
+    }
+    .barraC3 p{
+        margin: 0rem;
+    }
+    .barraC4 p{
+        margin: 0rem;
     }
 }
