@@ -1,0 +1,168 @@
+body{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    background:#2c333a;
+}
+.UpYOver {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 7rem;
+    font-size: 7rem;
+    color: #8898a2;
+    height: 2em;
+}
+.color{
+    color: #80bfb2;
+}
+#letra1{
+    animation-name: l1;
+    animation-duration: 5s;
+    transform: rotateX(180deg);
+}
+#letra2{
+    animation-name: l2;
+    animation-duration: 5s;
+    transform: rotateX(180deg);
+}
+#letra3{
+    transform: rotateX(180deg);
+    animation-name: l3;
+    animation-duration: 5s;
+}
+#letra4{
+    transform: rotateX(180deg);
+    animation-name: l4;
+    animation-duration: 5s;
+}
+#letra5{
+    transform: rotateX(180deg);
+    animation-name: l5;
+    animation-duration: 5s;
+}
+#letra6{
+    transform: rotateX(180deg);
+    animation-name: l6;
+    animation-duration: 5s;
+}
+#letra7{
+    transform: rotateX(180deg);
+    animation-name: l7;
+    animation-duration: 5s;
+}
+@keyframes l1 {
+    0%{
+        transform: rotateX(85deg);
+    }
+    6%{
+        transform: rotateX(0deg);
+    }
+    40%{
+        transform: rotateX(0deg);
+    }
+    46%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes l2 {
+    0%{
+        transform: rotateX(85deg);
+    }
+    6%{
+        transform: rotateX(85deg);
+    }
+    12%{
+        transform: rotateX(0deg);
+    }
+    46%{
+        transform: rotateX(0deg);
+    }
+    52%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes l3 {
+    0%{
+        transform: rotateX(85deg);
+    }
+    12%{
+        transform: rotateX(85deg);
+    }
+    18%{
+        transform: rotateX(0deg);
+    }
+    52%{
+        transform: rotateX(0deg);
+    }
+    58%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes l4 {
+    0%{
+        transform: rotateX(85deg);
+    }
+    18%{
+        transform: rotateX(85deg);
+    }
+    24%{
+        transform: rotateX(0deg);
+    }
+    58%{
+        transform: rotateX(0deg);
+    }
+    64%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes l5 {
+    0%{
+        transform: rotateX(85deg);
+    }
+    24%{
+        transform: rotateX(85deg);
+    }
+    30%{
+        transform: rotateX(0deg);
+    }
+    64%{
+        transform: rotateX(0deg);
+    }
+    70%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes l6 {
+    0%{
+        transform: rotateX(85deg);
+    }
+    30%{
+        transform: rotateX(85deg);
+    }
+    36%{
+        transform: rotateX(0deg);
+    }
+    70%{
+        transform: rotateX(0deg);
+    }
+    76%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes l7 {
+    0%{
+        transform: rotateX(85deg);
+    }
+    36%{
+        transform: rotateX(85deg);
+    }
+    42%{
+        transform: rotateX(0deg);
+    }
+    76%{
+        transform: rotateX(0deg);
+    }
+    82%{
+        transform: rotateX(180deg);
+    }
+}

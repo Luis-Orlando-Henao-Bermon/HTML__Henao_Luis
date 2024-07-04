@@ -1,0 +1,36 @@
+body{
+    background-image: url(img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#nube1{
+    position: relative;
+    animation-name: n1;
+    animation-duration: 10s;
+    left: -18vw;
+    animation-iteration-count:infinite ;
+    animation-timing-function: linear;}
+
+#nube2{
+    position: relative;
+    left: -20vw;
+    animation-name: n2;
+    animation-duration: 18s;
+    animation-iteration-count:infinite ;
+    animation-timing-function: linear;}
+@keyframes n1 {
+    0%{
+        left: -15vw;
+    }
+    100%{
+        left: 100vw;
+    }
+}
+@keyframes n2 {
+    0%{
+        left: -15vw;
+    }
+    100%{
+        left: 100vw;
+    }
+}
