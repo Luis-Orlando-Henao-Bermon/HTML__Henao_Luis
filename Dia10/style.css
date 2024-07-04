@@ -16,7 +16,7 @@ body{
     height:100vw ;
     max-height: 1080px;
     display: grid;
-    grid-template-columns: 17vw 83vw;
+    grid-template-columns: 20vw 80vw;
     transition: 0.5s;
 }
 .div2 {
@@ -48,7 +48,7 @@ body{
     margin: 0px;
 }
 #opc_menu:checked+.contenedor{
-    grid-template-columns: 3.5vw 97.5vw;
+    grid-template-columns: 4rem auto;
 }
 .header {
     display: flex;
@@ -277,11 +277,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    width: 100%;
+    justify-content: space-around;
 }
 .caja1 {
     background-color: white;
-    width: 24% ;
-    height: 10rem;
+    flex: 1;
     border-radius: 1rem;
 }
 .caja1D1 {
@@ -329,8 +330,7 @@ body{
 }
 .caja2 {
     background-color: white;
-    width: 24% ;
-    height: 10rem;
+    flex: 1;
     border-radius: 1rem;
 }
 .barraC2 {
@@ -348,8 +348,7 @@ body{
 }
 .caja3 {
     background-color: white;
-    width: 24% ;
-    height: 10rem;
+    flex: 1;
     border-radius: 1rem;
 }
 .barraC3 {
@@ -367,8 +366,7 @@ body{
 }
 .caja4 {
     background-color: white;
-    width: 24% ;
-    height: 10rem;
+    flex: 1;
     border-radius: 1rem;
 }
 .barraC4 {
