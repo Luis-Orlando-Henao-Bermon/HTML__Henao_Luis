@@ -1,7 +1,28 @@
-#caja{
-    height: 30rem;
+body{
+    margin: 0%;
+    width: 100vw;
     overflow: hidden;
 }
+#caja{
+    margin-top: 12rem;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    left: 115rem; 
+    animation-name: movimiento;
+    animation-duration: 10.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.camino {
+    margin: 0%;
+    background-color: black;
+    height: 20rem;
+    color: aliceblue;
+    font-size: 15rem;
+}
+
 #imagen{
     position: relative;
     animation-name: caminar;
@@ -73,3 +94,8 @@
         top: -282rem;
     }
 } 
+@keyframes movimiento {
+    100%{
+        left: -25rem;
+    }
+}
