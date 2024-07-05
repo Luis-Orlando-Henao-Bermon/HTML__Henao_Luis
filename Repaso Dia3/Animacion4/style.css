@@ -46,6 +46,7 @@ p{
     color: #fff;
     padding: 0.5rem;
     width: 20rem;
+    cursor: default;
 }
 .hover:hover{
     background-color: #f4546c;

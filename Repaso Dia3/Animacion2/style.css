@@ -2,6 +2,8 @@ body{
     background-image: url(img/sky.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 100vw;
+    overflow: hidden;
 }
 #nube1{
     position: relative;
