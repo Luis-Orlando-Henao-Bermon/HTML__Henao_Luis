@@ -4,8 +4,10 @@ body{
     background-size: 100%;
     width: 100vw;
     overflow: hidden;
+    margin: 0%;
 }
 #nube1{
+    margin-top: 10rem;
     position: relative;
     animation-name: n1;
     animation-duration: 10s;
@@ -35,4 +37,48 @@ body{
     100%{
         left: 100vw;
     }
+}
+#check {
+    display: none;
+}
+.menuIzquierda{
+    width: 100vw;
+    height: 6rem;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    background-color: #262f45;
+}
+.menu {
+    margin-left: 93vw;
+    width: 5rem;
+    z-index: 3;
+}
+.paginas {
+    margin-left: 83.1vw;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    font-size: 2rem;
+    width: 20rem;
+    height: 15vh;
+    margin-top: 6rem;
+    text-align: end;
+    z-index: 1;
+}
+.pagina1 {
+    color: white;
+    text-decoration: none;
+}
+.pagina2 {
+    color: white;
+    text-decoration: none;
+}
+.pagina3 {
+    color: white;
+    text-decoration: none;
+}
+#check:checked ~ .paginas{
+    display: flex;
 }

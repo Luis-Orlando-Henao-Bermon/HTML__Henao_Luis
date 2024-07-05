@@ -1,6 +1,7 @@
 
 body{
     background-color: #f8e4cc;
+    margin: 0%;
 }
 .contenido {
     position: relative;
@@ -30,7 +31,7 @@ p{
     height: 8rem;
     border-radius: 66%;
     border: 0.6rem solid white;
-    box-shadow: -0.1px 0.1px 2px gray;
+    box-shadow: 0px 0px 5px gray;
 }
 .letraRoja {
     color: red;
@@ -70,4 +71,56 @@ p{
         top: 1rem;
     }
     
+}
+#espacio{
+    margin: 0%;
+    height: 6rem;
+    background-color: #f4546c;
+    z-index: -1;
+}
+#check {
+    display: none;
+}
+.menuIzquierda{
+    width: 100vw;
+    height: 6rem;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    background-color: #430e07;
+}
+.menu {
+    margin-left: 93vw;
+    width: 5rem;
+    z-index: 3;
+}
+.paginas {
+    margin-left: 83.1vw;
+    position: fixed;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    font-size: 2rem; 
+    width: 20rem;
+    height: 15vh;
+    margin-top: 6rem;
+    text-align: end;
+    z-index: 1;
+    transition: 0.2s;
+}
+.pagina1 {
+    color: #c22f0c;
+    text-decoration: none;
+}
+.pagina2 {
+    color: #c22f0c;
+    text-decoration: none;
+}
+.pagina3 {
+    color: #c22f0c;
+    text-decoration: none;
+}
+#check:checked ~ .paginas{
+    opacity: 1;
 }
