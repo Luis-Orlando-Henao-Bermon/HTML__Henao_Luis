@@ -400,6 +400,11 @@ body{
     margin-left: 1rem;
 }
 
+@media only screen and (max-width: 1000px){
+    .contenedor{
+        grid-template-columns: 30vw 70vw;
+    }
+}
 
 @media only screen and (max-width: 400px){
     .contenedor{

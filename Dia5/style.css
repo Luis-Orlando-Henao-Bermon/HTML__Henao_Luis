@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #201c2c;
+    overflow-x: hidden;
 }
 #principal{
     width: 1920px;
@@ -171,7 +172,7 @@ body{
     margin: 0 10px;
     padding-top: 130px;
     width: 450px;
-    height: 400px;
+    height: 470px;
     align-content: center;
     text-align: center;
     border: #000000 15px double;

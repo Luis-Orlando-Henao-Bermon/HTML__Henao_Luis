@@ -16,6 +16,7 @@
 body{
     background-color: black;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 .pag{
     margin: 0 auto;
