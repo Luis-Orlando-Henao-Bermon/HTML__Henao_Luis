@@ -1,6 +1,6 @@
 @font-face {
     font-family: letra;
-    src: url(Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Th.ttf);
+    src: url(Amazon_Typefaces_Complete_Font_Set_Mar2020/AmazonEmber_Th.ttf);
 
 }
 @font-face {
@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: gor;
-    src: url(Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Bd.ttf);
+    src: url(Amazon_Typefaces_Complete_Font_Set_Mar2020/AmazonEmber_Bd.ttf);
 }
 body{
     background-color: black;
