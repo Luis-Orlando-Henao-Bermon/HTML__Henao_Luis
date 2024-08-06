@@ -3,15 +3,16 @@
 Proyectos que muestran mi avance en el aprendizaje de HTML y CSS, en estos proyectos hay prototipos de páginas web los cuales no son funcionales y solo son proyectos de front end.
 
 ## Estructura
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/1cfa471d-7fe8-4f65-8b16-4ea7da6df637)
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/7c2737ff-8934-4024-9efe-fe195a3b7241)
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/b438f4b0-7700-4bef-8d69-6b7bf3c3e88a)
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/09bd2cbc-af6d-4406-908e-89bf052d0dfa)
 
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/ea4f1b24-4963-44a4-b500-8ecc6bfd55e0)
+
 
 ## Carpetas y contenido
 
@@ -30,12 +31,12 @@ Proyectos que muestran mi avance en el aprendizaje de HTML y CSS, en estos proye
 |Repaso_Dia3|Aca hay 3 paginas distintas las cuales consisten solo de animaciones las cuales tienen un menu hamburguesa poe el cual se pueden desplazar entre las diferentes paginas con animaciones|   
 
 ## Instalación y Uso
-- Para ello debes clonar el directorio del siguiente link de git hub https://github.com/Luis-Orlando-Henao-Bermon/HTML---TRABAJO-EXTRA
+- Para ello debes clonar el directorio del siguiente link de git hub https://github.com/Luis-Orlando-Henao-Bermon/HTML__Henao_Luis
 
 - Abre la terminal de git bash y allí escribe el siguiente comando:     
 
 ``` bash 
-git clone https://github.com/Luis-Orlando-Henao-Bermon/HTML---TRABAJO-EXTRA
+git clone https://github.com/Luis-Orlando-Henao-Bermon/HTML__Henao_Luis
 ```
 - Debes tener la siguiente extencion en visual studio code:
 
